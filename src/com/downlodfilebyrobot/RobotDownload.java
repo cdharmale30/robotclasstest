@@ -24,6 +24,8 @@ public class RobotDownload {
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(4000);
 		System.out.println("1111111111111111111");
+				System.out.println("1111111111111111111");
+
 	}
 
 }
