@@ -18,13 +18,12 @@ public class RobotDownload {
 		Robot robot = new Robot();
 		robot.keyRelease(KeyEvent.VK_TAB);
 		Thread.sleep(4000);
-		
-		robot.keyRelease(KeyEvent.VK_TAB);
-		Thread.sleep(4000);
 
 		robot.keyPress(KeyEvent.VK_ENTER);
 		Thread.sleep(4000);
-
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		Thread.sleep(4000);
+		System.out.println("1111111111111111111");
 	}
 
 }
