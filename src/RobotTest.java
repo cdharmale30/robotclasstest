@@ -21,9 +21,7 @@ public class RobotTest {
 		robot.keyPress(KeyEvent.VK_DOWN); // press keyboard arrow key to select Save radio button
 		Thread.sleep(2000);
 		robot.keyPress(KeyEvent.VK_ENTER);
-		System.out.println("88888");
 		
-		System.out.println("88888");
 	}
 
 }
