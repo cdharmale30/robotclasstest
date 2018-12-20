@@ -22,6 +22,8 @@ public class RobotTest {
 		Thread.sleep(2000);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		System.out.println("88888");
+		
+		System.out.println("88888");
 	}
 
 }
